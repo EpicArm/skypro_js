@@ -1,0 +1,221 @@
+@media (max-width: 767px) {
+
+    .magic-center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top, .top_catalog, .top-cart {
+        text-align: center;
+
+        .header-position {
+            padding-top: 32px;
+            border-bottom: none;
+
+            .header-box {
+                display: flex;
+                align-items: center;
+                gap: 32px;
+
+                .serch_field {
+                    display: none;
+                }
+
+                .nav_link {
+                    display: none;
+                }
+            
+                .header__links {
+                    display: flex;
+                    gap: 32px;
+                }
+            }
+        }
+
+        .h1-main-body {
+            margin-top: 29px;
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;        
+        }
+    
+        .p-main-body {
+            font-size: 16px;
+        }
+    
+        .link-catalog-body {
+            font-size: 14px;
+        }
+    }
+
+    .top_catalog, .top-cart {
+        .h1-main-body {
+            margin-top: 82px;
+        }
+    }
+
+    .for-grid {
+        grid-template-columns: repeat(4, 1fr);
+
+        .for-item {
+            font-size: 28px;
+            line-height: 34px;
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+        }
+
+        .for-item-big {
+            height: 244px;
+        }
+    }
+
+    .h2-body {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .product {
+
+        .h3-body {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .price-body-sale {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .price-body-sale {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .price-body-old {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+        .h2-body {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+    .down {
+        margin-top: 32px;
+
+        .logo-footer {
+            display: none;
+        }
+
+        .footer-content {
+            flex-wrap: wrap;
+            gap: 32px;
+            justify-content: center;
+            text-align: center;
+
+            .p-footer-form {
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+    
+    .bread-crumb {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .top-cart {
+
+        background-image: url(img/cart/mobile_background_cart.jpg);
+    }
+
+    .cart-box {
+        margin-top: 92px;
+        display: flex;
+        flex-direction: column;
+
+        .cart-product-view {
+
+            .cart-title {
+                display: none;
+            }
+
+            .cart-product {
+                gap: 0px;
+
+                .product-img {
+                    display: none;
+                }
+
+                .cart-product-description {
+                    
+                    .title-product-description {
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+
+                    .product-description {
+                        font-size: 12px;
+                        line-height: 15px;
+                    }
+
+                    .price-product-description {
+                        font-size: 12px;
+                        line-height: 15px;
+                    }
+                }
+            }
+
+            .cart-button-action {
+                font-size: 12px;
+                line-height: 15px;
+                
+                .button-clear {
+                    width: auto;
+                }
+
+                .button-continue {
+                    width: auto;
+                }
+            }
+        }
+
+        .cart-apply-form {
+            width: 100%;
+        }
+    }
+
+    .product-box {
+        padding-top: 48px;
+
+        .h2-body {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        .product-content {
+
+            .product {
+
+                .h3-body {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                
+                .price-body-sale {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                .price-body-old {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
